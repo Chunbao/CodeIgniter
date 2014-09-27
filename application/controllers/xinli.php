@@ -7,7 +7,7 @@ class Xinli extends CI_Controller {
 		if ( ! file_exists(APPPATH.'/views/xinli/'.$page.'.php'))
 		{
 			// Whoops, we don't have a page for that!
-			show_404(APPPATH.'/views/xinli/'.$page.'.php');
+			show_404();
 		}
 		
 		$data['title'] = ucfirst($page); // Capitalize the first letter

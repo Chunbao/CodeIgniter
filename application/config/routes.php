@@ -41,6 +41,10 @@
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 
+$route['xinli/(:any)'] = 'xinli/view/$1';
+$route['xinli'] = 'xinli';
+$route['(:any)'] = 'xinli/view/$1';
+$route['default_controller'] = 'xinli/view';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
