@@ -8,7 +8,7 @@
 			<td height="188" valign="middle" rowspan="4" width="210"
 				align="center">
 				<!--<img src="images/pagesleft_img.jpg" />-->
-				<img alt="" src="/attached/image/201403/14173505_6504.jpg"
+				<img alt="" src="../../../../pic/business_owner.png"
 				width="210" />
 			</td>
 			<td rowspan="4" width="30">&nbsp;</td>
